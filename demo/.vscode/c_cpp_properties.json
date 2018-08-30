@@ -1,0 +1,122 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/c++/5",
+                "/usr/include/x86_64-linux-gnu/c++/5",
+                "/usr/include/c++/5/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/5/include",
+                "/usr/local/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include",
+                "/home/van/e9633/ql-ol-sdk/ql-ol-extsdk/include",
+                "/home/van/e9633/ql-ol-sdk/ql-ol-crosstool/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/qmi",
+                "/home/van/e9633/ql-ol-sdk/ql-ol-crosstool/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include",
+                "${workspaceRoot}",
+                "${workspaceRoot}/inc",
+                "${workspaceRoot}/unimain",
+                "${workspaceRoot}/unimain/protocol",
+                "${workspaceRoot}/unimain/common",
+                "${workspaceRoot}/unimain/utils",
+                "${workspaceFolder}/src_common",
+                "${workspaceFolder}/unimain/mcu",
+                "${workspaceFolder}/uniassist/uart",
+                "${workspaceFolder}/common/inc",
+                "${workspaceFolder}/uniservice/mcu",
+                "${workspaceFolder}/uniapi/protocol",
+                "${workspaceFolder}/uniservice/socket",
+                "${workspaceFolder}/uniapi/cmd",
+                "${workspaceFolder}/uniapi/vcx",
+                "${workspaceFolder}/uniservice/van",
+                "${workspaceFolder}/uniservice",
+                "${workspaceFolder}/unimain/util",
+                "${workspaceFolder}/unimain/handler",
+                "${workspaceFolder}/uniservice/ymodem",
+                "${workspaceFolder}/unimain/device",
+                "${workspaceFolder}/unimain/core",
+                "${workspaceFolder}/uniapi/gps",
+                "${workspaceFolder}/uniservice/cmd",
+                "${workspaceFolder}/uniservice/ota",
+                "${workspaceFolder}/uniassist",
+                "${workspaceFolder}/jtbb/protocol",
+                "${workspaceFolder}/jtbb/report",
+                "${workspaceFolder}/jtbb/chl_obd",
+                "${workspaceFolder}/jtbb/device",
+                "${workspaceFolder}/jtbb/obd",
+                "${workspaceFolder}/uniservice/led",
+                "${workspaceFolder}/uniservice/gps",
+                "${workspaceFolder}/jtbb/obd_chl",
+                "${workspaceFolder}/jtbb/obd_srd",
+                "${workspaceFolder}/unimain/obd"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include/c++/5",
+                    "/usr/include/x86_64-linux-gnu/c++/5",
+                    "/usr/include/c++/5/backward",
+                    "/usr/lib/gcc/x86_64-linux-gnu/5/include",
+                    "/usr/local/include",
+                    "/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed",
+                    "/usr/include/x86_64-linux-gnu",
+                    "/usr/include",
+                    "/home/van/e9633/ql-ol-sdk/ql-ol-extsdk/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}

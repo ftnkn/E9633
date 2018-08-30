@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "type_traits": "cpp",
+        "*.tcc": "cpp",
+        "initializer_list": "cpp",
+        "typeinfo": "cpp",
+        "array": "cpp",
+        "utility": "cpp",
+        "exception": "cpp",
+        "system_error": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "cerrno": "cpp",
+        "fstream": "cpp"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.errorSquiggles": "Disabled"
+}

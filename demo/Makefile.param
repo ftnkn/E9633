@@ -1,0 +1,30 @@
+
+ROOT_DIR := /home/van/work/demo
+QL_SDK_PATH := /home/van/e9633/ql-ol-sdk/ql-ol-extsdk
+
+CPPFLAGS := -I$(ROOT_DIR)                                   \
+            -I$(ROOT_DIR)/common/inc                        \
+            -I$(QL_SDK_PATH)/include                        \
+            -I$(QL_SDK_PATH)/lib/interface/inc              \
+            -I$(SDKTARGETSYSROOT)/usr/include               \
+            -I$(SDKTARGETSYSROOT)/usr/include/data          \
+            -I$(SDKTARGETSYSROOT)/usr/include/dsutils       \
+            -I$(SDKTARGETSYSROOT)/usr/include/qmi           \
+            -I$(SDKTARGETSYSROOT)/usr/include/qmi-framework \
+
+CPPFLAGS += -Wall
+
+LDFLAGS := -L$(ROOT_DIR)                                    \
+           -L$(SDKTARGETSYSROOT)/usr/lib                    \
+           -L$(QL_SDK_PATH)/lib                             \
+           -lpthread                                        \
+           -lrt 
+
+STD_LIB := $(SDKTARGETSYSROOT)/usr/lib/libdsi_netctrl.so    \
+           $(SDKTARGETSYSROOT)/usr/lib/libdsutils.so        \
+           $(SDKTARGETSYSROOT)/usr/lib/libqmiservices.so    \
+           $(SDKTARGETSYSROOT)/usr/lib/libqmi_cci.so        \
+           $(SDKTARGETSYSROOT)/usr/lib/libqmi_common_so.so  \
+           $(SDKTARGETSYSROOT)/usr/lib/libqmi.so            \
+           $(SDKTARGETSYSROOT)/usr/lib/libmcm.so            \
+           $(SDKTARGETSYSROOT)/usr/lib/libql_mgmt_client.so \
